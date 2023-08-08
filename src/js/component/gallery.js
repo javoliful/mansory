@@ -21,7 +21,7 @@ const unsplashID = 'JeUhcvI8Gy1ZCkP8hGd-X3AHHR8KBgohOuxu9yfa4b0';
 
 let infScroll = new InfiniteScroll( '.grid', {
   path: function() {
-    return `https://api.unsplash.com/photos?client_id=${unsplashID}&page=${this.pageIndex}&per_page=15`;
+    return `https://api.unsplash.com/search/photos?client_id=${unsplashID}&page=${this.pageIndex}&per_page=15&query=boda`;
   },
   // load response as JSON
   responseBody: 'json',
@@ -35,7 +35,7 @@ var proxyElem = document.createElement('div');
 
 infScroll.on( 'load', function( body ) {
   // compile body data into HTML
-  var itemsHTML = body.map( getItemHTML ).join('');
+  var itemsHTML = body.results.map( getItemHTML ).join('');
   // convert HTML string into elements
   proxyElem.innerHTML = itemsHTML;
   // append item elements
