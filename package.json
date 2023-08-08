@@ -1,0 +1,39 @@
+{
+  "name": "react-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "build": "webpack --mode production",
+    "start": "webpack serve --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.19.3",
+    "@babel/preset-env": "^7.22.10",
+    "@html-eslint/eslint-plugin": "^0.15.0",
+    "@html-eslint/parser": "^0.15.0",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "eslint": "^8.24.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.3.0",
+    "eslint-plugin-promise": "^6.0.1",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.6.1",
+    "node-sass": "^9.0.0",
+    "sass-loader": "^13.0.2",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^4.10.0",
+    "webpack-dev-server": "^4.11.1"
+  },
+  "dependencies": {
+    "imagesloaded": "^5.0.0",
+    "infinite-scroll": "^4.0.1",
+    "masonry-layout": "^4.2.2"
+  }
+}
