@@ -8,7 +8,7 @@ body {
   
   .grid__col-sizer,
   .photo-item {
-    width: 32%;
+    width: 20%;
   }
   
   .grid__gutter-sizer {
