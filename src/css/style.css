@@ -6,11 +6,6 @@ body {
     margin: 0 auto;
   }
   
-  .grid__col-sizer,
-  .photo-item {
-    width: 20%;
-  }
-  
   .grid__gutter-sizer {
     width: 2%;
   }
@@ -46,6 +41,25 @@ body {
     text-align: center;
     color: #777;
   }
+  .grid__col-sizer,
+  .photo-item {
+    width: 97%;
+
+    @media only screen and (min-width: 600px) { 
+      width: 47%;
+    }
+    @media only screen and (min-width: 768px) { 
+      width: 32%;
+    }
+    @media only screen and (min-width: 992px) {
+      width: 23%;
+    }
+  }
+
   
-  /* loader ellips in separate pen CSS */
+
+
+
+
+
   
