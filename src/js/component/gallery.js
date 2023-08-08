@@ -21,7 +21,7 @@ const unsplashID = 'JeUhcvI8Gy1ZCkP8hGd-X3AHHR8KBgohOuxu9yfa4b0';
 
 let infScroll = new InfiniteScroll( '.grid', {
   path: function() {
-    return `https://api.unsplash.com/photos?client_id=${unsplashID}&page=${this.pageIndex}`;
+    return `https://api.unsplash.com/photos?client_id=${unsplashID}&page=${this.pageIndex}&per_page=15`;
   },
   // load response as JSON
   responseBody: 'json',
