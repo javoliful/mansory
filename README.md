@@ -17,3 +17,10 @@ Run `npm build` to build the project. The build artifacts will be stored in the 
 ## Lint
 
 Run `npm lint` to refactor code witn ESLint.
+
+## Testing enviroment
+
+The code has been deployed in Netlify to testing
+
+https://effortless-puppy-adcc84.netlify.app/
+
