@@ -2,5 +2,9 @@
 /* css */
 import '../css/style.css'
 
-import './component/gallery.js'
+import MansoryPOC from  './component/mansoryPOC'
+
+const MyMansory = new MansoryPOC
+
+MyMansory.initialize()
 
